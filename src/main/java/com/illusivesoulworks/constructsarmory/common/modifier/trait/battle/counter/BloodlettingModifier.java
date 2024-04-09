@@ -17,8 +17,8 @@
 
 package com.illusivesoulworks.constructsarmory.common.modifier.trait.battle.counter;
 
-import javax.annotation.Nonnull;
-
+import com.illusivesoulworks.constructsarmory.ConstructsArmoryMod;
+import com.illusivesoulworks.constructsarmory.common.ConstructsArmoryEffects;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.entity.Entity;
@@ -31,8 +31,8 @@ import slimeknights.tconstruct.library.tools.capability.TinkerDataCapability;
 import slimeknights.tconstruct.library.tools.context.EquipmentContext;
 import slimeknights.tconstruct.library.tools.helper.ToolDamageUtil;
 import slimeknights.tconstruct.library.tools.nbt.IToolStackView;
-import com.illusivesoulworks.constructsarmory.ConstructsArmoryMod;
-import com.illusivesoulworks.constructsarmory.common.ConstructsArmoryEffects;
+
+import javax.annotation.Nonnull;
 
 public class BloodlettingModifier extends TotalArmorLevelModifier {
 

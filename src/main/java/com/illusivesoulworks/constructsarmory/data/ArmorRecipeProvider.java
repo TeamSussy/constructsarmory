@@ -17,17 +17,16 @@
 
 package com.illusivesoulworks.constructsarmory.data;
 
-import javax.annotation.Nonnull;
+import com.illusivesoulworks.constructsarmory.ConstructsArmoryMod;
+import com.illusivesoulworks.constructsarmory.common.ConstructsArmoryItems;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.recipes.FinishedRecipe;
 import org.jetbrains.annotations.NotNull;
 import slimeknights.tconstruct.common.data.BaseRecipeProvider;
 import slimeknights.tconstruct.library.data.recipe.IMaterialRecipeHelper;
 import slimeknights.tconstruct.library.data.recipe.IToolRecipeHelper;
-import slimeknights.tconstruct.library.tools.item.ModifiableArmorItem;
-import com.illusivesoulworks.constructsarmory.ConstructsArmoryMod;
-import com.illusivesoulworks.constructsarmory.common.ConstructsArmoryItems;
 
+import javax.annotation.Nonnull;
 import java.util.function.Consumer;
 
 public class ArmorRecipeProvider extends BaseRecipeProvider implements IMaterialRecipeHelper, IToolRecipeHelper {

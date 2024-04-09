@@ -17,18 +17,19 @@
 
 package com.illusivesoulworks.constructsarmory.common.modifier.trait.speed;
 
-import java.util.UUID;
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
+import com.illusivesoulworks.constructsarmory.common.modifier.EquipmentUtil;
+import com.illusivesoulworks.constructsarmory.common.modifier.IArmorUpdateModifier;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.ai.attributes.AttributeInstance;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import slimeknights.tconstruct.library.modifiers.Modifier;
 import slimeknights.tconstruct.library.tools.context.EquipmentChangeContext;
-import com.illusivesoulworks.constructsarmory.common.modifier.EquipmentUtil;
-import com.illusivesoulworks.constructsarmory.common.modifier.IArmorUpdateModifier;
 import slimeknights.tconstruct.library.tools.nbt.IToolStackView;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.UUID;
 
 public abstract class AbstractSpeedModifier extends Modifier implements IArmorUpdateModifier {
 

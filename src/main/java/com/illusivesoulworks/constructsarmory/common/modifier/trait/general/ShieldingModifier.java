@@ -17,6 +17,7 @@
 
 package com.illusivesoulworks.constructsarmory.common.modifier.trait.general;
 
+import com.illusivesoulworks.constructsarmory.ConstructsArmoryMod;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraftforge.common.MinecraftForge;
@@ -24,7 +25,6 @@ import net.minecraftforge.event.entity.living.PotionEvent;
 import org.apache.commons.lang3.reflect.FieldUtils;
 import slimeknights.tconstruct.library.modifiers.impl.TotalArmorLevelModifier;
 import slimeknights.tconstruct.library.tools.capability.TinkerDataCapability;
-import com.illusivesoulworks.constructsarmory.ConstructsArmoryMod;
 
 import java.lang.reflect.Field;
 

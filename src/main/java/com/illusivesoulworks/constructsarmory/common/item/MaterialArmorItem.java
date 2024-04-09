@@ -17,21 +17,11 @@
 
 package com.illusivesoulworks.constructsarmory.common.item;
 
-import static com.illusivesoulworks.constructsarmory.common.stat.impl.PlateMaterialStats.PERCENT_FORMAT;
-
 import com.google.common.collect.ImmutableMultimap;
 import com.google.common.collect.Multimap;
 import com.illusivesoulworks.constructsarmory.ConstructsArmoryMod;
 import com.illusivesoulworks.constructsarmory.client.MaterialArmorModel;
 import com.illusivesoulworks.constructsarmory.common.stat.ConstructsArmoryStats;
-
-import java.util.List;
-import java.util.UUID;
-import java.util.function.BiPredicate;
-import java.util.function.Consumer;
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.client.model.Model;
 import net.minecraft.network.chat.Component;
@@ -60,6 +50,15 @@ import slimeknights.tconstruct.library.tools.nbt.StatsNBT;
 import slimeknights.tconstruct.library.tools.stat.ToolStats;
 import slimeknights.tconstruct.tools.TinkerModifiers;
 import slimeknights.tconstruct.tools.item.ArmorSlotType;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.List;
+import java.util.UUID;
+import java.util.function.BiPredicate;
+import java.util.function.Consumer;
+
+import static com.illusivesoulworks.constructsarmory.common.stat.impl.PlateMaterialStats.PERCENT_FORMAT;
 
 public class MaterialArmorItem extends ModifiableArmorItem {
 

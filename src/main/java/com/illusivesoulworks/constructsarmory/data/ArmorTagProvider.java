@@ -17,10 +17,9 @@
 
 package com.illusivesoulworks.constructsarmory.data;
 
-import java.util.function.Consumer;
+import com.illusivesoulworks.constructsarmory.common.ConstructsArmoryItems;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.tags.BlockTagsProvider;
-import net.minecraft.data.tags.TagsProvider;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -29,7 +28,8 @@ import slimeknights.tconstruct.common.TinkerTags;
 import slimeknights.tconstruct.common.data.tags.ItemTagProvider;
 import slimeknights.tconstruct.common.registration.CastItemObject;
 import slimeknights.tconstruct.tools.item.ArmorSlotType;
-import com.illusivesoulworks.constructsarmory.common.ConstructsArmoryItems;
+
+import java.util.function.Consumer;
 
 public class ArmorTagProvider extends ItemTagProvider {
 
@@ -46,11 +46,11 @@ public class ArmorTagProvider extends ItemTagProvider {
             .add(ConstructsArmoryItems.HEAD_PLATE.get(), ConstructsArmoryItems.BODY_PLATE.get(),
                     ConstructsArmoryItems.LEGS_PLATE.get(), ConstructsArmoryItems.FEET_PLATE.get(),
                     ConstructsArmoryItems.MAIL.get());
-    TagsProvider.TagAppender<Item> goldCasts = this.tag(TinkerTags.Items.GOLD_CASTS);
-    TagsProvider.TagAppender<Item> sandCasts = this.tag(TinkerTags.Items.SAND_CASTS);
-    TagsProvider.TagAppender<Item> redSandCasts = this.tag(TinkerTags.Items.RED_SAND_CASTS);
-    TagsProvider.TagAppender<Item> singleUseCasts = this.tag(TinkerTags.Items.SINGLE_USE_CASTS);
-    TagsProvider.TagAppender<Item> multiUseCasts = this.tag(TinkerTags.Items.MULTI_USE_CASTS);
+    TagAppender<Item> goldCasts = this.tag(TinkerTags.Items.GOLD_CASTS);
+    TagAppender<Item> sandCasts = this.tag(TinkerTags.Items.SAND_CASTS);
+    TagAppender<Item> redSandCasts = this.tag(TinkerTags.Items.RED_SAND_CASTS);
+    TagAppender<Item> singleUseCasts = this.tag(TinkerTags.Items.SINGLE_USE_CASTS);
+    TagAppender<Item> multiUseCasts = this.tag(TinkerTags.Items.MULTI_USE_CASTS);
     Consumer<CastItemObject> addCast = cast -> {
       // tag based on material
       goldCasts.add(cast.get());

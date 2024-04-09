@@ -17,7 +17,9 @@
 
 package com.illusivesoulworks.constructsarmory.common;
 
-import java.util.function.Supplier;
+import com.illusivesoulworks.constructsarmory.ConstructsArmoryMod;
+import com.illusivesoulworks.constructsarmory.api.ArmorMaterialStatsIdentifiers;
+import com.illusivesoulworks.constructsarmory.common.item.MaterialArmorItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -31,9 +33,8 @@ import slimeknights.tconstruct.smeltery.TinkerSmeltery;
 import slimeknights.tconstruct.tools.TinkerToolParts;
 import slimeknights.tconstruct.tools.TinkerTools;
 import slimeknights.tconstruct.tools.item.ArmorSlotType;
-import com.illusivesoulworks.constructsarmory.ConstructsArmoryMod;
-import com.illusivesoulworks.constructsarmory.api.ArmorMaterialStatsIdentifiers;
-import com.illusivesoulworks.constructsarmory.common.item.MaterialArmorItem;
+
+import java.util.function.Supplier;
 
 public class ConstructsArmoryItems {
 

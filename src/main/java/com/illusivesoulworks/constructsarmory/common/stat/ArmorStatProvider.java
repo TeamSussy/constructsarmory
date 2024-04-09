@@ -17,8 +17,8 @@
 
 package com.illusivesoulworks.constructsarmory.common.stat;
 
-import java.util.List;
-import javax.annotation.Nonnull;
+import com.illusivesoulworks.constructsarmory.common.stat.impl.MailMaterialStats;
+import com.illusivesoulworks.constructsarmory.common.stat.impl.PlateMaterialStats;
 import slimeknights.tconstruct.library.materials.stats.MaterialStatsId;
 import slimeknights.tconstruct.library.tools.definition.IToolStatProvider;
 import slimeknights.tconstruct.library.tools.definition.PartRequirement;
@@ -27,8 +27,9 @@ import slimeknights.tconstruct.library.tools.definition.ToolDefinitionData;
 import slimeknights.tconstruct.library.tools.nbt.MaterialNBT;
 import slimeknights.tconstruct.library.tools.nbt.StatsNBT;
 import slimeknights.tconstruct.tools.item.ArmorSlotType;
-import com.illusivesoulworks.constructsarmory.common.stat.impl.MailMaterialStats;
-import com.illusivesoulworks.constructsarmory.common.stat.impl.PlateMaterialStats;
+
+import javax.annotation.Nonnull;
+import java.util.List;
 
 public class ArmorStatProvider implements IToolStatProvider {
 

@@ -17,8 +17,6 @@
 
 package com.illusivesoulworks.constructsarmory.common.modifier.trait.battle.counter;
 
-import javax.annotation.Nonnull;
-
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -27,6 +25,8 @@ import slimeknights.tconstruct.library.modifiers.Modifier;
 import slimeknights.tconstruct.library.tools.context.EquipmentContext;
 import slimeknights.tconstruct.library.tools.helper.ToolDamageUtil;
 import slimeknights.tconstruct.library.tools.nbt.IToolStackView;
+
+import javax.annotation.Nonnull;
 
 public abstract class CounterattackModifier extends Modifier {
 

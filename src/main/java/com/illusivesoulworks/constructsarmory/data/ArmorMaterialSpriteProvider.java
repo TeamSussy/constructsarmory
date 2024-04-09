@@ -17,8 +17,7 @@
 
 package com.illusivesoulworks.constructsarmory.data;
 
-import javax.annotation.Nonnull;
-
+import com.illusivesoulworks.constructsarmory.api.ArmorMaterialStatsIdentifiers;
 import net.minecraft.resources.ResourceLocation;
 import slimeknights.tconstruct.TConstruct;
 import slimeknights.tconstruct.library.client.data.material.AbstractMaterialSpriteProvider;
@@ -28,10 +27,11 @@ import slimeknights.tconstruct.library.client.data.spritetransformer.IColorMappi
 import slimeknights.tconstruct.library.materials.definition.MaterialVariantId;
 import slimeknights.tconstruct.tools.data.material.MaterialIds;
 import slimeknights.tconstruct.tools.data.sprite.TinkerMaterialSpriteProvider;
-import com.illusivesoulworks.constructsarmory.api.ArmorMaterialStatsIdentifiers;
 import slimeknights.tconstruct.tools.data.sprite.TinkerPartSpriteProvider;
 import slimeknights.tconstruct.tools.stats.ExtraMaterialStats;
 import slimeknights.tconstruct.tools.stats.RepairKitStats;
+
+import javax.annotation.Nonnull;
 
 /**
  * Modified copy of {@link TinkerMaterialSpriteProvider} from Tinkers' Construct

@@ -17,14 +17,15 @@
 
 package com.illusivesoulworks.constructsarmory.data;
 
-import java.util.HashMap;
-import java.util.Map;
-import javax.annotation.Nonnull;
+import com.illusivesoulworks.constructsarmory.common.ConstructsArmoryItems;
 import net.minecraft.data.DataGenerator;
 import slimeknights.mantle.registration.object.ItemObject;
 import slimeknights.tconstruct.library.data.tinkering.AbstractStationSlotLayoutProvider;
 import slimeknights.tconstruct.tools.item.ArmorSlotType;
-import com.illusivesoulworks.constructsarmory.common.ConstructsArmoryItems;
+
+import javax.annotation.Nonnull;
+import java.util.HashMap;
+import java.util.Map;
 
 public class ArmorSlotLayoutProvider extends AbstractStationSlotLayoutProvider {
 

@@ -17,9 +17,7 @@
 
 package com.illusivesoulworks.constructsarmory.common.modifier.trait.general;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
+import com.illusivesoulworks.constructsarmory.common.ConstructsArmoryModifiers;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
@@ -33,7 +31,9 @@ import slimeknights.tconstruct.library.tools.definition.ModifiableArmorMaterial;
 import slimeknights.tconstruct.library.tools.nbt.IToolStackView;
 import slimeknights.tconstruct.library.tools.stat.ToolStats;
 import slimeknights.tconstruct.tools.modifiers.traits.general.StoneshieldModifier;
-import com.illusivesoulworks.constructsarmory.common.ConstructsArmoryModifiers;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 
 /**
  * Modified copy of {@link StoneshieldModifier} from Tinkers' Construct

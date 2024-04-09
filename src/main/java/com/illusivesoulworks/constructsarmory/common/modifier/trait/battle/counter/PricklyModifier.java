@@ -17,14 +17,14 @@
 
 package com.illusivesoulworks.constructsarmory.common.modifier.trait.battle.counter;
 
-import javax.annotation.Nonnull;
-
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
 import slimeknights.tconstruct.library.tools.context.EquipmentContext;
 import slimeknights.tconstruct.library.tools.nbt.IToolStackView;
 import slimeknights.tconstruct.tools.TinkerModifiers;
+
+import javax.annotation.Nonnull;
 
 public class PricklyModifier extends CounterattackModifier {
 

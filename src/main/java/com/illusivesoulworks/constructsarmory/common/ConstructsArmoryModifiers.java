@@ -17,47 +17,16 @@
 
 package com.illusivesoulworks.constructsarmory.common;
 
+import com.illusivesoulworks.constructsarmory.ConstructsArmoryMod;
+import com.illusivesoulworks.constructsarmory.common.modifier.trait.battle.*;
+import com.illusivesoulworks.constructsarmory.common.modifier.trait.battle.counter.*;
+import com.illusivesoulworks.constructsarmory.common.modifier.trait.general.*;
+import com.illusivesoulworks.constructsarmory.common.modifier.trait.speed.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import slimeknights.tconstruct.library.modifiers.util.ModifierDeferredRegister;
 import slimeknights.tconstruct.library.modifiers.util.StaticModifier;
-import slimeknights.tconstruct.tools.modifiers.traits.general.CultivatedModifier;
-import slimeknights.tconstruct.tools.modifiers.traits.general.DenseModifier;
-import slimeknights.tconstruct.tools.modifiers.traits.general.OvercastModifier;
-import slimeknights.tconstruct.tools.modifiers.traits.general.OvergrowthModifier;
-import slimeknights.tconstruct.tools.modifiers.traits.general.OverlordModifier;
-import slimeknights.tconstruct.tools.modifiers.traits.general.OverworkedModifier;
-import slimeknights.tconstruct.tools.modifiers.traits.general.SolarPoweredModifier;
-import com.illusivesoulworks.constructsarmory.ConstructsArmoryMod;
-import com.illusivesoulworks.constructsarmory.common.modifier.trait.battle.HallowedModifier;
-import com.illusivesoulworks.constructsarmory.common.modifier.trait.battle.IgneousModifier;
-import com.illusivesoulworks.constructsarmory.common.modifier.trait.battle.PetrousModifier;
-import com.illusivesoulworks.constructsarmory.common.modifier.trait.battle.StableModifier;
-import com.illusivesoulworks.constructsarmory.common.modifier.trait.battle.VengefulModifier;
-import com.illusivesoulworks.constructsarmory.common.modifier.trait.battle.WeightyModifier;
-import com.illusivesoulworks.constructsarmory.common.modifier.trait.battle.counter.BlightedModifier;
-import com.illusivesoulworks.constructsarmory.common.modifier.trait.battle.counter.BloodlettingModifier;
-import com.illusivesoulworks.constructsarmory.common.modifier.trait.battle.counter.CounterattackModifier;
-import com.illusivesoulworks.constructsarmory.common.modifier.trait.battle.counter.EnkindlingModifier;
-import com.illusivesoulworks.constructsarmory.common.modifier.trait.battle.counter.MalignantModifier;
-import com.illusivesoulworks.constructsarmory.common.modifier.trait.battle.counter.PricklyModifier;
-import com.illusivesoulworks.constructsarmory.common.modifier.trait.battle.counter.SplinteredModifier;
-import com.illusivesoulworks.constructsarmory.common.modifier.trait.general.DuctileModifier;
-import com.illusivesoulworks.constructsarmory.common.modifier.trait.general.EndershieldModifier;
-import com.illusivesoulworks.constructsarmory.common.modifier.trait.general.ExperiencedModifier;
-import com.illusivesoulworks.constructsarmory.common.modifier.trait.general.SavoryModifier;
-import com.illusivesoulworks.constructsarmory.common.modifier.trait.general.ShieldingModifier;
-import com.illusivesoulworks.constructsarmory.common.modifier.trait.general.StoneguardModifier;
-import com.illusivesoulworks.constructsarmory.common.modifier.trait.speed.AccelerationModifier;
-import com.illusivesoulworks.constructsarmory.common.modifier.trait.speed.AerialModifier;
-import com.illusivesoulworks.constructsarmory.common.modifier.trait.speed.DelvingModifier;
-import com.illusivesoulworks.constructsarmory.common.modifier.trait.speed.FerventModifier;
-import com.illusivesoulworks.constructsarmory.common.modifier.trait.speed.ImmaculateModifier;
-import com.illusivesoulworks.constructsarmory.common.modifier.trait.speed.ImmaculateModifier2;
-import com.illusivesoulworks.constructsarmory.common.modifier.trait.speed.NimbleModifier;
-import com.illusivesoulworks.constructsarmory.common.modifier.trait.speed.RadiantModifier;
-import com.illusivesoulworks.constructsarmory.common.modifier.trait.speed.SalvagedModifier;
-import com.illusivesoulworks.constructsarmory.common.modifier.trait.speed.WovenModifier;
+import slimeknights.tconstruct.tools.modifiers.traits.general.*;
 import slimeknights.tconstruct.tools.modifiers.upgrades.general.ReinforcedModifier;
 
 public class ConstructsArmoryModifiers {
@@ -65,8 +34,8 @@ public class ConstructsArmoryModifiers {
   private static final ModifierDeferredRegister MODIFIERS = ModifierDeferredRegister.create(ConstructsArmoryMod.MOD_ID);
 
   // Tier 1
-  public static final StaticModifier<CultivatedModifier> CULTIVATED =
-      MODIFIERS.register("cultivated", CultivatedModifier::new);
+//  public static final StaticModifier<CultivatedModifier> CULTIVATED =
+//      MODIFIERS.register("cultivated", CultivatedModifier::new);
   public static final StaticModifier<WovenModifier> WOVEN =
       MODIFIERS.register("woven", WovenModifier::new);
   public static final StaticModifier<PetrousModifier> PETROUS =

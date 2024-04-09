@@ -17,8 +17,8 @@
 
 package com.illusivesoulworks.constructsarmory.common;
 
-import java.util.EnumMap;
-import java.util.Map;
+import com.illusivesoulworks.constructsarmory.ConstructsArmoryMod;
+import com.illusivesoulworks.constructsarmory.common.stat.ArmorStatProvider;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 import net.minecraft.Util;
@@ -26,8 +26,9 @@ import slimeknights.tconstruct.common.Sounds;
 import slimeknights.tconstruct.library.tools.definition.IToolStatProvider;
 import slimeknights.tconstruct.library.tools.definition.ModifiableArmorMaterial;
 import slimeknights.tconstruct.tools.item.ArmorSlotType;
-import com.illusivesoulworks.constructsarmory.ConstructsArmoryMod;
-import com.illusivesoulworks.constructsarmory.common.stat.ArmorStatProvider;
+
+import java.util.EnumMap;
+import java.util.Map;
 
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class ConstructsArmoryDefinitions {

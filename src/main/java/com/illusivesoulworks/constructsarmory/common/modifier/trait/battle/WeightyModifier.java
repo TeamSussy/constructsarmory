@@ -17,10 +17,7 @@
 
 package com.illusivesoulworks.constructsarmory.common.modifier.trait.battle;
 
-import java.util.List;
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
+import com.illusivesoulworks.constructsarmory.common.modifier.EquipmentUtil;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -32,7 +29,10 @@ import slimeknights.mantle.client.TooltipKey;
 import slimeknights.tconstruct.library.modifiers.Modifier;
 import slimeknights.tconstruct.library.tools.context.EquipmentContext;
 import slimeknights.tconstruct.library.tools.nbt.IToolStackView;
-import com.illusivesoulworks.constructsarmory.common.modifier.EquipmentUtil;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.List;
 
 public class WeightyModifier extends Modifier {
 

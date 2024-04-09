@@ -17,10 +17,7 @@
 
 package com.illusivesoulworks.constructsarmory.common.modifier.trait.speed;
 
-import java.util.List;
-import java.util.UUID;
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
+import com.illusivesoulworks.constructsarmory.common.modifier.EquipmentUtil;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
@@ -32,7 +29,11 @@ import slimeknights.mantle.client.TooltipKey;
 import slimeknights.tconstruct.common.TinkerTags;
 import slimeknights.tconstruct.library.tools.nbt.IToolStackView;
 import slimeknights.tconstruct.library.tools.stat.ToolStats;
-import com.illusivesoulworks.constructsarmory.common.modifier.EquipmentUtil;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.List;
+import java.util.UUID;
 
 public class SalvagedModifier extends AbstractSpeedModifier {
 

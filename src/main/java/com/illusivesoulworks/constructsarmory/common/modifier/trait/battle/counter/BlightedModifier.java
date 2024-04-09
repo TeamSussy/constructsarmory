@@ -17,8 +17,6 @@
 
 package com.illusivesoulworks.constructsarmory.common.modifier.trait.battle.counter;
 
-import javax.annotation.Nonnull;
-
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -26,6 +24,8 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
 import slimeknights.tconstruct.library.tools.context.EquipmentContext;
 import slimeknights.tconstruct.library.tools.nbt.IToolStackView;
+
+import javax.annotation.Nonnull;
 
 public class BlightedModifier extends CounterattackModifier {
 

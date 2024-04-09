@@ -17,13 +17,13 @@
 
 package com.illusivesoulworks.constructsarmory.common.modifier.trait.general;
 
+import com.illusivesoulworks.constructsarmory.ConstructsArmoryMod;
 import net.minecraft.world.entity.player.Player;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.entity.living.LivingExperienceDropEvent;
 import net.minecraftforge.event.world.BlockEvent;
 import slimeknights.tconstruct.library.modifiers.impl.TotalArmorLevelModifier;
 import slimeknights.tconstruct.library.tools.capability.TinkerDataCapability;
-import com.illusivesoulworks.constructsarmory.ConstructsArmoryMod;
 
 public class ExperiencedModifier extends TotalArmorLevelModifier {
 

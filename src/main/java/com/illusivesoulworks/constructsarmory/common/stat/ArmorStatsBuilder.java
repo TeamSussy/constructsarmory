@@ -18,8 +18,10 @@
 package com.illusivesoulworks.constructsarmory.common.stat;
 
 import com.google.common.annotations.VisibleForTesting;
-import java.util.List;
-import javax.annotation.Nonnull;
+import com.illusivesoulworks.constructsarmory.api.ArmorMaterialStatsIdentifiers;
+import com.illusivesoulworks.constructsarmory.api.ArmorStatsCalculator;
+import com.illusivesoulworks.constructsarmory.common.stat.impl.MailMaterialStats;
+import com.illusivesoulworks.constructsarmory.common.stat.impl.PlateMaterialStats;
 import lombok.AccessLevel;
 import lombok.Getter;
 import slimeknights.tconstruct.library.tools.definition.PartRequirement;
@@ -31,10 +33,9 @@ import slimeknights.tconstruct.library.tools.stat.IToolStat;
 import slimeknights.tconstruct.library.tools.stat.ToolStats;
 import slimeknights.tconstruct.library.tools.stat.ToolStatsBuilder;
 import slimeknights.tconstruct.tools.item.ArmorSlotType;
-import com.illusivesoulworks.constructsarmory.api.ArmorMaterialStatsIdentifiers;
-import com.illusivesoulworks.constructsarmory.api.ArmorStatsCalculator;
-import com.illusivesoulworks.constructsarmory.common.stat.impl.MailMaterialStats;
-import com.illusivesoulworks.constructsarmory.common.stat.impl.PlateMaterialStats;
+
+import javax.annotation.Nonnull;
+import java.util.List;
 
 @Getter(AccessLevel.PROTECTED)
 public final class ArmorStatsBuilder extends ToolStatsBuilder {

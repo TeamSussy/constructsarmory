@@ -17,14 +17,15 @@
 
 package com.illusivesoulworks.constructsarmory.data;
 
-import javax.annotation.Nonnull;
+import com.illusivesoulworks.constructsarmory.common.stat.impl.MailMaterialStats;
+import com.illusivesoulworks.constructsarmory.common.stat.impl.PlateMaterialStats;
 import net.minecraft.data.DataGenerator;
 import slimeknights.tconstruct.library.data.material.AbstractMaterialDataProvider;
 import slimeknights.tconstruct.library.data.material.AbstractMaterialStatsDataProvider;
 import slimeknights.tconstruct.library.materials.definition.MaterialId;
 import slimeknights.tconstruct.tools.data.material.MaterialIds;
-import com.illusivesoulworks.constructsarmory.common.stat.impl.MailMaterialStats;
-import com.illusivesoulworks.constructsarmory.common.stat.impl.PlateMaterialStats;
+
+import javax.annotation.Nonnull;
 
 public class ArmorMaterialStatsDataProvider extends AbstractMaterialStatsDataProvider {
 

@@ -17,6 +17,7 @@
 
 package com.illusivesoulworks.constructsarmory.common;
 
+import com.illusivesoulworks.constructsarmory.common.modifier.IArmorUpdateModifier;
 import net.minecraft.world.damagesource.CombatRules;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
@@ -29,7 +30,6 @@ import slimeknights.tconstruct.library.modifiers.ModifierEntry;
 import slimeknights.tconstruct.library.tools.context.EquipmentContext;
 import slimeknights.tconstruct.library.tools.definition.ModifiableArmorMaterial;
 import slimeknights.tconstruct.library.tools.helper.ArmorUtil;
-import com.illusivesoulworks.constructsarmory.common.modifier.IArmorUpdateModifier;
 import slimeknights.tconstruct.library.tools.nbt.IToolStackView;
 
 public class ConstructsArmoryEvents {

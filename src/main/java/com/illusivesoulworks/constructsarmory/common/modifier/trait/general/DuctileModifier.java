@@ -17,12 +17,13 @@
 
 package com.illusivesoulworks.constructsarmory.common.modifier.trait.general;
 
-import javax.annotation.Nonnull;
+import com.illusivesoulworks.constructsarmory.common.stat.ConstructsArmoryStats;
 import slimeknights.tconstruct.library.modifiers.Modifier;
 import slimeknights.tconstruct.library.tools.context.ToolRebuildContext;
 import slimeknights.tconstruct.library.tools.stat.ModifierStatsBuilder;
 import slimeknights.tconstruct.library.tools.stat.ToolStats;
-import com.illusivesoulworks.constructsarmory.common.stat.ConstructsArmoryStats;
+
+import javax.annotation.Nonnull;
 
 public class DuctileModifier extends Modifier {
 

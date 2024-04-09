@@ -17,16 +17,17 @@
 
 package com.illusivesoulworks.constructsarmory.data;
 
-import javax.annotation.Nonnull;
+import com.illusivesoulworks.constructsarmory.ConstructsArmoryMod;
+import com.illusivesoulworks.constructsarmory.common.ConstructsArmoryDefinitions;
+import com.illusivesoulworks.constructsarmory.common.ConstructsArmoryItems;
+import com.illusivesoulworks.constructsarmory.common.stat.ConstructsArmoryStats;
 import net.minecraft.data.DataGenerator;
 import slimeknights.tconstruct.library.data.tinkering.AbstractToolDefinitionDataProvider;
 import slimeknights.tconstruct.library.tools.SlotType;
 import slimeknights.tconstruct.library.tools.stat.ToolStats;
 import slimeknights.tconstruct.tools.item.ArmorSlotType;
-import com.illusivesoulworks.constructsarmory.ConstructsArmoryMod;
-import com.illusivesoulworks.constructsarmory.common.ConstructsArmoryDefinitions;
-import com.illusivesoulworks.constructsarmory.common.ConstructsArmoryItems;
-import com.illusivesoulworks.constructsarmory.common.stat.ConstructsArmoryStats;
+
+import javax.annotation.Nonnull;
 
 public class ArmorDefinitionDataProvider extends AbstractToolDefinitionDataProvider {
 

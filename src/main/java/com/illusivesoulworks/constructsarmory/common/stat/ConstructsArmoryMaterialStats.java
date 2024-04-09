@@ -17,10 +17,10 @@
 
 package com.illusivesoulworks.constructsarmory.common.stat;
 
+import com.illusivesoulworks.constructsarmory.common.stat.impl.MailMaterialStats;
+import com.illusivesoulworks.constructsarmory.common.stat.impl.PlateMaterialStats;
 import slimeknights.tconstruct.library.materials.IMaterialRegistry;
 import slimeknights.tconstruct.library.materials.MaterialRegistry;
-import com.illusivesoulworks.constructsarmory.common.stat.impl.PlateMaterialStats;
-import com.illusivesoulworks.constructsarmory.common.stat.impl.MailMaterialStats;
 
 public class ConstructsArmoryMaterialStats {
 

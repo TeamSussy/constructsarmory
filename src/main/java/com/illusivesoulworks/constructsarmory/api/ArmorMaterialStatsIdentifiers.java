@@ -17,8 +17,8 @@
 
 package com.illusivesoulworks.constructsarmory.api;
 
-import slimeknights.tconstruct.library.materials.stats.MaterialStatsId;
 import com.illusivesoulworks.constructsarmory.ConstructsArmoryMod;
+import slimeknights.tconstruct.library.materials.stats.MaterialStatsId;
 
 public class ArmorMaterialStatsIdentifiers {
 

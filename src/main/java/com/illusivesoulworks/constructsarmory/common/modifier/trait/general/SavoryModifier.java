@@ -17,7 +17,6 @@
 
 package com.illusivesoulworks.constructsarmory.common.modifier.trait.general;
 
-import javax.annotation.Nonnull;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
@@ -26,6 +25,8 @@ import slimeknights.tconstruct.library.modifiers.Modifier;
 import slimeknights.tconstruct.library.tools.context.EquipmentContext;
 import slimeknights.tconstruct.library.tools.nbt.IToolStackView;
 import slimeknights.tconstruct.shared.TinkerCommons;
+
+import javax.annotation.Nonnull;
 
 public class SavoryModifier extends Modifier {
 

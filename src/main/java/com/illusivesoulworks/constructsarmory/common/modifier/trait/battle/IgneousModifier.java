@@ -17,9 +17,7 @@
 
 package com.illusivesoulworks.constructsarmory.common.modifier.trait.battle;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
+import com.illusivesoulworks.constructsarmory.common.modifier.EquipmentUtil;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.damagesource.DamageSource;
@@ -35,8 +33,9 @@ import slimeknights.tconstruct.library.tools.context.ToolRebuildContext;
 import slimeknights.tconstruct.library.tools.nbt.IToolStackView;
 import slimeknights.tconstruct.library.tools.nbt.ModDataNBT;
 import slimeknights.tconstruct.tools.TinkerModifiers;
-import com.illusivesoulworks.constructsarmory.common.modifier.EquipmentUtil;
 
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 import java.util.List;
 
 public class IgneousModifier extends Modifier {

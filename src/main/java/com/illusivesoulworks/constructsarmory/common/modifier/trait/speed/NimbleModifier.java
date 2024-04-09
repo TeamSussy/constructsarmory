@@ -17,11 +17,12 @@
 
 package com.illusivesoulworks.constructsarmory.common.modifier.trait.speed;
 
-import javax.annotation.Nonnull;
+import com.illusivesoulworks.constructsarmory.common.stat.ConstructsArmoryStats;
 import slimeknights.tconstruct.library.modifiers.Modifier;
 import slimeknights.tconstruct.library.tools.context.ToolRebuildContext;
 import slimeknights.tconstruct.library.tools.stat.ModifierStatsBuilder;
-import com.illusivesoulworks.constructsarmory.common.stat.ConstructsArmoryStats;
+
+import javax.annotation.Nonnull;
 
 public class NimbleModifier extends Modifier {
 

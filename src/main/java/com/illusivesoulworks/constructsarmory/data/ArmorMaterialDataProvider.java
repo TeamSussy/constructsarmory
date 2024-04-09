@@ -17,9 +17,10 @@
 
 package com.illusivesoulworks.constructsarmory.data;
 
-import javax.annotation.Nonnull;
 import net.minecraft.data.DataGenerator;
 import slimeknights.tconstruct.library.data.material.AbstractMaterialDataProvider;
+
+import javax.annotation.Nonnull;
 
 public class ArmorMaterialDataProvider extends AbstractMaterialDataProvider {
 

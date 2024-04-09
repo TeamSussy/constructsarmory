@@ -17,8 +17,7 @@
 
 package com.illusivesoulworks.constructsarmory.common;
 
-import java.util.function.IntFunction;
-import java.util.function.Supplier;
+import com.illusivesoulworks.constructsarmory.ConstructsArmoryMod;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectCategory;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -28,7 +27,9 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import slimeknights.tconstruct.common.TinkerEffect;
 import slimeknights.tconstruct.tools.modifiers.effect.NoMilkEffect;
-import com.illusivesoulworks.constructsarmory.ConstructsArmoryMod;
+
+import java.util.function.IntFunction;
+import java.util.function.Supplier;
 
 public class ConstructsArmoryEffects {
 

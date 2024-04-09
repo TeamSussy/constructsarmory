@@ -17,11 +17,7 @@
 
 package com.illusivesoulworks.constructsarmory.common.modifier.trait.speed;
 
-import java.util.List;
-import java.util.UUID;
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
+import com.illusivesoulworks.constructsarmory.common.modifier.EquipmentUtil;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -38,7 +34,11 @@ import slimeknights.tconstruct.library.tools.nbt.IToolStackView;
 import slimeknights.tconstruct.library.tools.nbt.ModDataNBT;
 import slimeknights.tconstruct.library.tools.stat.ToolStats;
 import slimeknights.tconstruct.tools.modifiers.traits.harvest.MaintainedModifier;
-import com.illusivesoulworks.constructsarmory.common.modifier.EquipmentUtil;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.List;
+import java.util.UUID;
 
 /**
  * Modified copy of {@link MaintainedModifier} from Tinkers' Construct

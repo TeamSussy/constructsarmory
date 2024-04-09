@@ -17,10 +17,10 @@
 
 package com.illusivesoulworks.constructsarmory.common.stat;
 
+import com.illusivesoulworks.constructsarmory.ConstructsArmoryMod;
 import slimeknights.tconstruct.library.tools.stat.FloatToolStat;
 import slimeknights.tconstruct.library.tools.stat.ToolStatId;
 import slimeknights.tconstruct.library.tools.stat.ToolStats;
-import com.illusivesoulworks.constructsarmory.ConstructsArmoryMod;
 
 public class ConstructsArmoryStats {
 

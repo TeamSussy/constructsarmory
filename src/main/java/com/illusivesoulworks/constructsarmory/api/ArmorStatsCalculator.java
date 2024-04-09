@@ -17,9 +17,10 @@
 
 package com.illusivesoulworks.constructsarmory.api;
 
+import slimeknights.tconstruct.tools.item.ArmorSlotType;
+
 import java.util.HashMap;
 import java.util.Map;
-import slimeknights.tconstruct.tools.item.ArmorSlotType;
 
 public class ArmorStatsCalculator {
 

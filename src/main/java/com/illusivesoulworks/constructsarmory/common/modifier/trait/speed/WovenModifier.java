@@ -17,9 +17,7 @@
 
 package com.illusivesoulworks.constructsarmory.common.modifier.trait.speed;
 
-import java.util.UUID;
-import java.util.function.BiConsumer;
-import javax.annotation.Nonnull;
+import com.illusivesoulworks.constructsarmory.common.modifier.EquipmentUtil;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.ai.attributes.Attribute;
@@ -30,7 +28,10 @@ import slimeknights.tconstruct.library.modifiers.Modifier;
 import slimeknights.tconstruct.library.tools.nbt.IToolStackView;
 import slimeknights.tconstruct.library.tools.stat.ToolStats;
 import slimeknights.tconstruct.tools.modifiers.traits.DamageSpeedTradeModifier;
-import com.illusivesoulworks.constructsarmory.common.modifier.EquipmentUtil;
+
+import javax.annotation.Nonnull;
+import java.util.UUID;
+import java.util.function.BiConsumer;
 
 /**
  * Modified copy of {@link DamageSpeedTradeModifier} from Tinkers' Construct
